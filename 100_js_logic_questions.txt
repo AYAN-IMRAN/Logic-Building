@@ -1,0 +1,120 @@
+### ✅ 100 JavaScript Logic Questions
+
+
+
+---
+
+#### 🔹 Section 1: Easy (Basics – 1 to 30)
+
+1. 🔁 Reverse a string
+2. 🔄 Check if a string is a palindrome
+3. 🔤 Count vowels in a string
+4. 🆙 Capitalize the first letter of each word
+5. ✖️ Find the factorial of a number
+6. 🧬 Generate Fibonacci sequence
+7. ➕ Sum of all digits in a number
+8. 📄 Count number of words in a sentence
+9. 🔍 Check if number is prime
+10. 🔢 Find nth prime number
+11. 📈 Find largest number in an array
+12. 📉 Find smallest number in an array
+13. 🔁 Remove duplicates from an array
+14. 🔗 Merge two arrays and sort
+15. 🧩 Check if two strings are anagrams
+16. 🧠 FizzBuzz from 1 to 100
+17. 🌡️ Convert Celsius to Fahrenheit
+18. 🐫 Convert string to camelCase
+19. 🔣 Count occurrences of each character in a string
+20. 🔢 Find sum of even numbers in array
+21. 🔢 Find sum of odd numbers in array
+22. 🧮 Print first `n` even numbers
+23. ✖️ Print multiplication table of a number
+24. 📊 Sort array in ascending order
+25. 📉 Sort array in descending order
+26. 🤝 Find GCD of two numbers
+27. 🔗 Find LCM of two numbers
+28. 🔢 Check if string contains only digits
+29. 🔄 Reverse words in a sentence
+30. 🔄 Swap two variables without temp variable
+
+---
+
+#### 🔹 Section 2: Medium (31 to 70)
+
+31. 🥈 Find second largest number in array
+32. 🧺 Flatten a nested array
+33. ❓ Find the missing number in array (1 to N)
+34. 🔄 Rotate array elements by K positions
+35. 📏 Find longest word in a sentence
+36. ✅ Validate an email string
+37. 🔎 Find first non-repeating character
+38. 🔁 Count total duplicate elements in array
+39. 🚫 Remove falsy values from array
+40. 🎯 Find mode of array
+41. 🔢 Convert Roman numeral to integer
+42. 🔢 Convert integer to Roman numeral
+43. ✅ Check if array is sorted
+44. 🔍 Binary search in sorted array
+45. 🔀 Shuffle an array randomly
+46. 📦 Chunk array into groups
+47. 🔢 Count number of set bits in number
+48. 🤝 Find intersection of two arrays
+49. 🔗 Find union of two arrays
+50. 🧬 Deep clone an object
+51. 🈳 Check if object is empty
+52. 🕒 Implement debounce function
+53. 🕒 Implement throttle function
+54. 🔑 Sort array of objects by key
+55. 🧲 Group elements by property (array of objects)
+56. ➕ Implement a simple calculator
+57. ⚖️ Check balanced parentheses
+58. 🧑‍🎓 Convert string to title case
+59. 🧮 Count number of zeroes in a number
+60. 🔁 Find repeating elements in array
+61. 🔐 Validate strong password
+62. 🎲 Generate random number in range
+63. 🔗 Print all pairs in array with sum = target
+64. 🔄 Convert array to object
+65. 🧠 Implement map() function manually
+66. 🧠 Implement filter() manually
+67. 🧠 Implement reduce() manually
+68. 🔠 Convert object to query string
+69. 🔄 Parse query string to object
+70. ⏱️ Create a stopwatch with JS
+
+---
+
+#### 🔹 Section 3: Advanced (71 to 100)
+
+71. 🧩 Implement curry function
+72. 🧱 Compose multiple functions
+73. 🧠 Memoize a function
+74. 📦 Create a promise from scratch
+75. 🧪 Custom implementation of `bind()`
+76. 🧪 Custom implementation of `call()`
+77. 🧪 Custom implementation of `apply()`
+78. 🧮 Deep equality check between objects
+79. 🌲 Convert tree to flat array
+80. 🧱 Convert flat array to tree
+81. 📣 Implement a simple Pub/Sub pattern
+82. 🧘 Debounce with async support
+83. ➗ Chainable calculator class
+84. 📡 Build a custom event emitter
+85. ⏲️ Create your own setInterval using setTimeout
+86. 🔗 Merge two sorted arrays
+87. 🔢 Convert number to words (e.g., 123 -> One Hundred Twenty Three)
+88. 🧵 Find all substrings of a string
+89. 🔄 Generate all permutations of string
+90. 🔁 Generate all combinations of array
+91. 📚 Implement LRU cache
+92. 🌳 Implement binary search tree
+93. 🧱 Implement Min Stack
+94. 🌊 Count islands in 2D matrix
+95. 🗼 Solve Tower of Hanoi
+96. ♻️ Implement retry logic with promise
+97. 🔃 Build infinite scroll simulation
+98. 🖱️ Implement drag & drop logic (vanilla JS)
+99. ⏰ Create a scheduler (set tasks at time)
+100. 💻 Build a mini CLI app (Node.js)
+
+---

@@ -193,41 +193,78 @@
 
 //? ✅ Question 10: 🔢 Find the nth prime number
 
-function isPrime(num) {
-  if (num <= 1) return false;
+// function isPrime(num) {
+//   if (num <= 1) return false;
 
-  for (let i = 2; i <= Math.sqrt(num); i++) {
-    if (num % i === 0) return false;
-  }
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//     if (num % i === 0) return false;
+//   }
 
-  return true;
+//   return true;
+// }
+
+// function nthPrime(n) {
+//   console.log(`🔢 Finding the ${n}th prime number...`);
+
+//   let count = 0; // Prime count found so far
+//   let num = 2; // Start checking from 2
+
+//   while (true) {
+//     if (isPrime(num)) {
+//       count++;
+//       console.log(`✅ Prime ${count}: ${num}`);
+//     }
+
+//     if (count === n) {
+//       console.log(`🎯 The ${n}th prime number is ${num}`);
+//       return num;
+//     }
+
+//     num++;
+//   }
+// }
+
+// nthPrime(1);  
+// nthPrime(5);  
+// nthPrime(10); 
+
+
+//? ✅ Question 11: 📈 Find the Largest Number in an Array
+
+// function LargestNumber() {
+//   let numbers = [3,4,8,10];
+
+//   let largest = numbers[0];
+
+//   for(let i = 1;i<= numbers.length; i++){
+//     if(numbers[i] > largest){
+// largest = numbers[i];
+//     }
+    
+
+//   }
+//   return largest;
+// }
+
+
+// console.log(LargestNumber());
+
+
+
+//? ✅ Question 12: ➗ Find the Greatest Common Divisor (GCD) of Two Numbers
+function gcd(a,b){
+  console.log(`🧮 Finding GCD of ${a} and ${b}`);
+while(b !== 0){
+  console.log(`a = ${a}, b = ${b}`);
+  let temp = b;
+  b = a % b;
+  a = temp;
+}
+console.log(`✅ GCD is: ${a}`);
+return 0 ;
 }
 
-function nthPrime(n) {
-  console.log(`🔢 Finding the ${n}th prime number...`);
-
-  let count = 0; // Prime count found so far
-  let num = 2; // Start checking from 2
-
-  while (true) {
-    if (isPrime(num)) {
-      count++;
-      console.log(`✅ Prime ${count}: ${num}`);
-    }
-
-    if (count === n) {
-      console.log(`🎯 The ${n}th prime number is ${num}`);
-      return num;
-    }
-
-    num++;
-  }
-}
-
-nthPrime(1);  
-nthPrime(5);  
-nthPrime(10); 
-
+gcd(12,18)
 
 
 

@@ -252,22 +252,67 @@
 
 
 //? ✅ Question 12: ➗ Find the Greatest Common Divisor (GCD) of Two Numbers
-function gcd(a,b){
-  console.log(`🧮 Finding GCD of ${a} and ${b}`);
-while(b !== 0){
-  console.log(`a = ${a}, b = ${b}`);
-  let temp = b;
-  b = a % b;
-  a = temp;
+// function gcd(a,b){
+//   console.log(`🧮 Finding GCD of ${a} and ${b}`);
+// while(b !== 0){
+//   console.log(`a = ${a}, b = ${b}`);
+//   let temp = b;
+//   b = a % b;
+//   a = temp;
+// }
+// console.log(`✅ GCD is: ${a}`);
+// return 0 ;
+// }
+
+// gcd(12,18)
+
+
+//? ✅ Question 13: 📈 Find the Secend Largest Number in an Array
+
+// function secendLargestNumber() {
+//   let numbers = [2,5,7,9];
+//   let largest = -Infinity;
+//   let secendLargest = -Infinity;
+
+//   for(let i = 0 ; i < numbers.length; i++){
+//     if(numbers[i] > largest){
+//       secendLargest = largest;
+//       largest = numbers[i];
+//     }else if(numbers[i] > secendLargest && numbers[i] !== largest){
+//       secendLargest = numbers[i];
+//     }
+//   }
+//   return secendLargest;
+// }
+
+// console.log(secendLargestNumber())
+
+
+
+//? ✅ Question 14: 📈 Find the Third Largest Number in an Array;
+function thirdLargestNumber() {
+    let numbers = [2,5,7,9];
+  let largest = -Infinity;
+  let secendLargest = -Infinity;
+  let thirdLargest = -Infinity;
+
+    for(let i = 0 ; i < numbers.length; i++){
+    if(numbers[i] > largest){
+      thirdLargest = secendLargest;
+      secendLargest = largest;
+      largest = numbers[i];
+    }else if(numbers[i] > secendLargest && numbers[i] !== largest){
+      thirdLargest = secendLargest;
+      secendLargest = numbers[i];
+    }else if(numbers[i] > thirdLargest && secendLargest!== largest && numbers[i] !== largest){
+      thirdLargest = numbers[i]
+    }
+  }
+  return thirdLargest;
+
 }
-console.log(`✅ GCD is: ${a}`);
-return 0 ;
-}
 
-gcd(12,18)
-
-
-
+console.log(thirdLargestNumber())
 
 
 //? 16 :✅ FizzBuzz (1 to 100)
